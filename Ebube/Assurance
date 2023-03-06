@@ -1,0 +1,25 @@
+nclude<stdio.h>
+#include<stdlib.h>
+/**
+ Write a program that ask are you married if yes
+ congratulations if no b honest with me
+ */
+ 
+int main()
+
+{
+int 
+char MaritalStatus, Gender;
+   
+ printf("Enter MaritalStatus, Gender,");
+   scanf("%c,%c,&MaritalStatus,&Gender");
+   if(MaritalStatus== "Married")
+   {
+    printf("Congratulations!");
+   }
+   else if(MaritalStatus== "Single")
+   {
+    printf("Be Honest with me!");
+   }
+   return 0;
+}
